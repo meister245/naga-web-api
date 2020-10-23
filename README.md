@@ -1,9 +1,13 @@
 # naga-web-api
 
-Unofficial python client for NAGA.com trading platform
-The library implements private API calls captured from NAGA.com web interface
+Unofficial python client for NAGA.com social and trading platform.
+The library implements private API calls captured from NAGA.com web user interface.
 
-The private API may change at any point in time in the future, use at your own risk.
+## Disclaimer
+
+I am not associated with NAGA.com.
+I don't bear any responsibility if you end up losing money as a result of this library.
+The private API may change at any point in time in the future, use the library at your own risk.
 
 ## Usage
 
@@ -13,8 +17,7 @@ Install from github:
 
 ## Market History Collection
 
-No login is required to collect market history data,
-The backend is using an implementation of tradingview for visualizing charts
+No login is required to collect market history data.
 
 Example for data collection:
 
